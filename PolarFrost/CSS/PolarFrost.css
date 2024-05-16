@@ -1,0 +1,55 @@
+  /* Estilos para el header */
+  header {
+      font-family: "Cabin", sans-serif;
+        background-color:dimgray; 
+        color: #fff; 
+        padding: 20px; 
+        display: flex; 
+        align-items: center; 
+    }
+    /* Estilos para el logo */
+    .logo {
+        width: 200px; 
+        height: auto; 
+        margin-right: 10px; 
+    }
+    
+    h1, h3 {
+        margin: 0; 
+    }
+    /* Estilos para el enlace de WhatsApp */
+    .whatsapp {
+        margin-left: auto; /* Empuja el icono de WhatsApp hacia la derecha */
+    }
+    .whatsapp img {
+        width: 300px; /* Tamaño más pequeño para el icono de WhatsApp */
+    }
+    /* Estilos para el contenedor de texto */
+    .text-container {
+        display: flex; /* Usa flexbox para alinear los elementos internos */
+        flex-direction: column; /* Apila los elementos verticalmente */
+    }
+      /* Estilos para la barra de navegación */
+      nav {
+        background-color: #007BFF; /* Color de fondo de la barra de navegación */
+        padding: 10px; /* Espacio dentro de la barra de navegación */
+    }
+    nav ul {
+        list-style: none; /* Elimina las viñetas */
+        margin: 0; /* Elimina el margen */
+        padding: 0; /* Elimina el relleno */
+        display: flex; /* Hace que los elementos de la lista se alineen horizontalmente */
+    }
+    nav ul li {
+        margin-right: 20px; /* Espacio entre los elementos de la lista */
+    }
+    nav ul li a {
+        color: #fff; /* Color del texto del enlace */
+        text-decoration: none; /* Elimina el subrayado del enlace */
+        padding: 10px 15px; /* Espacio dentro de los enlaces */
+        border-radius: 5px; /* Bordes redondeados */
+        transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+    }
+    nav ul li a:hover {
+        background-color: #0056b3; /* Color de fondo al pasar el ratón */
+    } 
