@@ -1,0 +1,309 @@
+/* Estilos para el header */
+header {
+    font-family: "Cabin", sans-serif;
+    background: linear-gradient(to bottom, midnightblue, #007BFF);
+    color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-right: 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 0; /* Elimina el margen superior del h3 */
+}
+
+.whatsapp {
+    margin-left: auto;
+}
+
+.whatsapp img {
+    width: 200px;
+}
+
+.text-container {
+    display: flex;
+    /* Usa flexbox para alinear los elementos internos */
+    flex-direction: column;
+    /* Apila los elementos verticalmente */
+}
+
+nav {
+    background-color: #007BFF;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid #0056b3;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+nav ul li a {
+    font-family: "Cabin", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a.activo,
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+.service-section {
+    font-family: "Cabin", sans-serif;
+    padding: 20px;
+    color: #333;
+    display: flex; /* Hace que los elementos dentro del contenedor se muestren en línea */
+    justify-content: space-between; /* Distribuye los elementos del contenedor a lo largo del eje principal con el mismo espacio entre ellos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en una nueva línea si el espacio es insuficiente */
+}
+
+.service-section h2 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.service-section ul {
+    padding-left: 20px;
+}    
+
+.holder {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.holder img {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 3px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    border: 3px  #007BFF;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, midnightblue, #007BFF);
+}
+
+.left-block,
+.right-block {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+/* Estilos generales */
+body {
+    font-family: "Cabin", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la tarjeta de servicio de heladeras */
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.card-description {
+    font-size: 20px;
+}
+
+.call-now-box {
+    margin: auto;
+    width: fit-content;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-now-box img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.call-now-box h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.call-now-box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.whatsapp-button {
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    align-self: center;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+
+/* Estilos para la sección de aires acondicionados */
+.ac-holder {
+    text-align: center;
+}
+
+.ac-central-block h2 {
+    color: #007BFF;
+    font-size: 30px;
+}
+
+.ac-central-block p {
+    font-size: 20px;
+}
+
+.ac-image-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 3px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    border: 3px #007BFF;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, midnightblue, #007BFF);
+}
+
+.ac-service-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ac-services-grid {
+    border: 3px solid midnightblue;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    background: linear-gradient(to bottom, #007BFF, deepskyblue);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.ac-service-block h2 {
+    font-weight: 500;
+    border-bottom: 3px solid midnightblue;
+    padding: 10px;
+    color: midnightblue;
+}
+
+.ac-service-block p {
+    font-size: 20px;
+}
+
+.ac-services-grid img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.ac-services-grid:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.ac-image-container img {
+    display: block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos cuadrados de HELADERAS */
+.custom-service-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.custom-services-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.custom-services-grid {
+    width: calc(25% - 10px); /* Para tener 4 bloques en una fila con espacio entre ellos */
+    border-radius: 10px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.4); 
+    background: linear-gradient(to bottom, #007BFF, deepskyblue); 
+}
+
+.custom-service-block {
+    background: linear-gradient(to bottom, linear-gradient, deepskyblue, rgb(40, 201, 255));
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.custom-service-block h2 {
+    font-size: 20px;
+    border-bottom: 3px solid midnightblue;
+    margin-bottom: 10px;
+    color: midnightblue;
+}
+
+.custom-service-block p {
+    font-size: 16px;
+}

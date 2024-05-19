@@ -3,7 +3,6 @@
       font-family: "Cabin", sans-serif;
       background-color: midnightblue;
       background: linear-gradient(to bottom, midnightblue, #007BFF);
-      /* Gradiente desde azul oscuro a azul claro */
       color: #f8f9fa;
       padding: 10px;
       display: flex;
@@ -11,7 +10,7 @@
 
   }
 
-  /* Estilos para el logo */
+/*estilo logo*/
   .logo {
       width: 150px;
       height: auto;
@@ -26,72 +25,48 @@
   /* Estilos para el enlace de WhatsApp */
   .whatsapp {
       margin-left: auto;
-      /* Empuja el icono de WhatsApp hacia la derecha */
   }
 
   .whatsapp img {
       width: 200px;
-      /* Tamaño más pequeño para el icono de WhatsApp */
   }
 
   /* Estilos para el contenedor de texto */
   .text-container {
       display: flex;
-      /* Usa flexbox para alinear los elementos internos */
       flex-direction: column;
-      /* Apila los elementos verticalmente */
   }
 
   /* Estilos para la barra de navegación */
   nav {
       background-color: #007BFF;
-      /* Color de fondo de la barra de navegación */
       padding: 10px;
-      /* Espacio dentro de la barra de navegación */
       display: flex;
-      /* Flexbox para centrar los elementos */
       justify-content: center;
-      /* Centra los botones horizontalmente */
       border-top: 3px solid #0056b3;
-      /* Color de fondo al pasar el ratón */
-      ;
-      /* Línea superior para separar el nav */
   }
 
   nav ul {
       list-style: none;
-      /* Elimina las viñetas */
       margin: 0;
-      /* Elimina el margen */
       padding: 0;
-      /* Elimina el relleno */
       display: flex;
-      /* Hace que los elementos de la lista se alineen horizontalmente */
       align-items: center;
-      /* Centra verticalmente los elementos */
   }
 
   nav ul li {
       margin-right: 40px;
-      /* Espacio entre los elementos de la lista */
   }
 
   nav ul li a {
       font-family: "Cabin", sans-serif;
       color: #fff;
-      /* Color del texto del enlace */
       text-decoration: none;
-      /* Elimina el subrayado del enlace */
       padding: 10px 15px;
-      /* Espacio dentro de los enlaces */
       border-radius: 5px;
-      /* Bordes redondeados */
       transition: background-color 0.3s ease;
-      /* Transición suave para el cambio de color de fondo */
       display: flex;
-      /* Flexbox para alinear el texto y las imágenes */
       align-items: center;
-      /* Centra verticalmente los elementos */
   }
 
   nav ul li a.activo {
@@ -100,28 +75,22 @@
 
   nav ul li a:hover {
       background-color: #0056b3;
-      /* Color de fondo al pasar el ratón */
   }
 
   /* Estilos para la sección de servicios */
   .service-section {
       font-family: "Cabin", sans-serif;
       padding: 20px;
-      /* Relleno para la sección */
       color: #333;
-      /* Color del texto */
   }
 
   .service-section h2 {
       margin-top: 0;
-      /* Elimina el margen superior del título */
       color: #007BFF;
-      /* Color del título */
   }
 
   .service-section ul {
       padding-left: 20px;
-      /* Espacio a la izquierda para las viñetas */
   }
 
   .holder {
@@ -132,24 +101,27 @@
 
   .holder img {
      display: block;
-      /* Asegura que la imagen sea un bloque */
       margin: 0 auto;
-      /* Centra la imagen horizontalmente */
       max-width: 1200px;
       padding: 3px;
-      box-shadow: 0 0 40px rgba(0, 0, 0, 0.1); /* Agrega un efecto de relieve a la imagen */
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.1); 
+      border: 10px  #007BFF;
+      border-radius: 10px; 
+      background: linear-gradient(to bottom, midnightblue, #007BFF);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
   }
 
   .service-section {
-    display: flex; /* Hace que los elementos dentro del contenedor se muestren en línea */
-    justify-content: space-between; /* Distribuye los elementos del contenedor a lo largo del eje principal con el mismo espacio entre ellos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en una nueva línea si el espacio es insuficiente */
-}
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+  }
 
 .left-block,
 .right-block {
-    width: calc(50% - 10px); /* Divide el ancho del contenedor en dos columnas y resta un poco de espacio para los márgenes */
-    margin-bottom: 20px; /* Agrega un margen inferior para separar los bloques */
+    width: calc(50% - 10px); 
+    margin-bottom: 20px; 
     font-size: 20px;
   }
   footer {
@@ -189,8 +161,10 @@
     
     .card-image {
         width: 100%;
-        height: 250px; /* Ajusta la altura de la imagen según tu preferencia */
+        height: 300px; 
         object-fit: cover;
+        border: 3px solid #007BFF; 
+        border-radius: 10px;
     }
     
     .card-content {
@@ -201,18 +175,18 @@
         font-size: 30px;
         margin-top: 0;
         margin-bottom: 10px;
-        color: #007BFF; /* Color azul */
+        color: #007BFF; 
     }
     
     .card-description {
-        font-size: 20px; /* Ajusta el tamaño de la letra según tu preferencia */
+        font-size: 20px; 
     }
     /* Estilos para el cuadro llamativo */
     
     .call-now-box {
         margin: auto;
         width: fit-content;
-        background-color:red; /* Naranja */
+        background-color:red; 
         color: #fff;
         border-radius: 10px;
         padding: 20px;
@@ -222,9 +196,9 @@
         align-items: center;
     }
     .call-now-box img {
-        max-width:  200px; /* Ajusta el tamaño de la imagen */
+        max-width:  200px; 
         height: auto;
-        margin-bottom: 20px; /* Añade un margen inferior */
+        margin-bottom: 20px; 
     }
     
     .call-now-box h2 {
@@ -256,11 +230,10 @@
 
 /*Comienzo AIRES*/
 .ac-holder {
-    text-align: center; /* Centra el contenido del holder */
+    text-align: center;
 }
 .ac-central-block h2{
     color: #007BFF;
-    /* Color del título */
     font-size: 30px;
 }
 .ac-central-block p {
@@ -269,34 +242,34 @@
 
 .ac-image-container img {
     display: block;
-      /* Asegura que la imagen sea un bloque */
       margin: 0 auto;
-      /* Centra la imagen horizontalmente */
       max-width: 500px;
       padding: 3px;
-      box-shadow: 0 0 40px rgba(0, 0, 0, 0.1); /* Agrega un efecto de relieve a la imagen */
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.1); 
 }
 
 .ac-service-section {
-    display: flex; /* Utiliza flexbox para alinear los elementos */
-    flex-direction: column; /* Apila los elementos verticalmente */
-    align-items: center; /* Centra los elementos horizontalmente */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
 }
 .ac-services-grid {
-    border: 3px solid#007BFF;
+    border: 3px midnightblue;
     border-radius: 10px;
     padding: 16px;
     margin: 16px;
     display: flex;
     gap: 32px;
     align-items: center;
+    background: linear-gradient(to bottom, #007BFF, deepskyblue );
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .ac-service-block h2 {
     font-weight: 500;
-    border-bottom: 3px solid  #007BFF;
+    border-bottom: 3px solid  midnightblue;
     padding: 10px;
-    color: #0056b3;
+    color:midnightblue;
 }
 .ac-service-block p{
     font-size: 20px;
@@ -311,3 +284,8 @@
     flex-direction: row-reverse;
 }
 
+.ac-image-container img{
+    display: block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
