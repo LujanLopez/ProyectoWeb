@@ -31,6 +31,10 @@ h3 {
     width: 200px;
 }
 
+.text-container h1, h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el texto */
+}
+
 .text-container {
     display: flex;
     /* Usa flexbox para alinear los elementos internos */
@@ -67,6 +71,7 @@ nav ul li a {
     transition: background-color 0.3s ease;
     display: flex;
     align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el texto */
 }
 
 nav ul li a.activo,
@@ -103,7 +108,7 @@ nav ul li a:hover {
     margin: 0 auto;
     max-width: 600px;
     padding: 3px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
     border: 3px  #007BFF;
     border-radius: 10px;
     background: linear-gradient(to bottom, midnightblue, #007BFF);
@@ -220,7 +225,7 @@ body {
     margin: 0 auto;
     max-width: 600px;
     padding: 3px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
     border: 3px #007BFF;
     border-radius: 10px;
     background: linear-gradient(to bottom, midnightblue, #007BFF);
