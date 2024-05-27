@@ -312,3 +312,90 @@ body {
 .custom-service-block p {
     font-size: 16px;
 }
+
+/* Empieza Garantia */
+
+.garanti-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.garanti-imagen-custom {
+    max-width: 400%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+.garanti-content {
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.garanti-content h2{
+    color: #007BFF;
+}
+
+.garanti-content p{
+    font-size: 20px;
+}
+
+/* FIN Garantia */
+
+/* Inicio Cobertura*/
+
+.coverage-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+    text-align: center; 
+}
+
+.coverage-section h2 {
+    font-size: 28px; 
+    color: #007BFF; 
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.coverage-areas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.coverage-area {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    margin-bottom: 20px;
+    flex: 1 1 300px;
+}
+
+.coverage-area h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.coverage-area p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/*FIN Cobertura */
