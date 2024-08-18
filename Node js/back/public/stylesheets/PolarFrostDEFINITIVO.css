@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: "Cabin", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para el header */
+header.holder {
+    background: linear-gradient(to bottom, midnightblue, #007BFF);
+    color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; /* Alineación horizontal */
+    flex-wrap: wrap; /* Permite el ajuste en dispositivos móviles */
+    width: 100%;
+}
+
+/* Contenedor para el logo y el texto */
+.header-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Permite ajuste en dispositivos móviles */
+    gap: 20px; /* Espacio entre el logo y el texto */
+}
+
+/* Estilos para el logo */
+.logo {
+    width: 150px;
+    height: auto;
+    border: none;
+}
+
+/* Estilos para el contenedor de texto */
+.text-container {
+    text-align: left;
+}
+
+.text-container h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.text-container h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}

@@ -16,7 +16,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  background: linear-gradient(to bottom, midnightblue, #007BFF);
+  background: solid(to bottom, midnightblue);
   position: fixed;
   top: 0;
   left: 0;
