@@ -32,6 +32,7 @@ import HomePage from './pages/HomePage';
 import HeladerasPage from './pages/HeladerasPage';
 import AiresPage from './pages/AiresPage';
 import GarantiaPage from './pages/GarantiaPage';
+import ServiciosPage from './pages/ServiciosPage';
 import ContactoPage from './pages/ContactoPage';
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           <Route path="/heladeras" element={<HeladerasPage />} />
           <Route path="/aires" element={<AiresPage />} />
           <Route path="/garantia" element={<GarantiaPage />} />
+          <Route path="/Servicios" element={<ServiciosPage />} />
           <Route path="/contacto" element={<ContactoPage />} />
         </Routes>
         <Footer />

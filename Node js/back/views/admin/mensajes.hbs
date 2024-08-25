@@ -1,0 +1,21 @@
+<h1>Mensajes Recibidos</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Teléfono</th>
+            <th>Mensaje</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each mensajes}}
+        <tr>
+            <td>{{this.nombre}}</td>
+            <td>{{this.email}}</td>
+            <td>{{this.telefono}}</td>
+            <td>{{this.mensaje}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

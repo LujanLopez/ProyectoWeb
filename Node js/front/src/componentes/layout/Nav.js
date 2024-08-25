@@ -11,6 +11,7 @@ const Nav = ({ scrolled }) => {
         <li><Link to="/heladeras">HELADERAS</Link></li>
         <li><Link to="/aires">AIRES</Link></li>
         <li><Link to="/garantia">GARANTIA</Link></li>
+        <li><Link to="/servicios">SERVICIOS</Link></li>
         <li><Link to="/contacto">CONTACTO</Link></li>
       </ul>
     </nav>

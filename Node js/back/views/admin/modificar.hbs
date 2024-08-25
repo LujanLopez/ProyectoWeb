@@ -1,0 +1,39 @@
+<div class="container" style="margin: 100px auto">
+  <div class="row">
+    <div class="col-6 offset-3">
+      <h4>Modificar Servicio</h4>
+
+      <!-- Formulario para modificar el servicio -->
+      <form action="/admin/servicios/modificar" method="post">
+        <input type="hidden" name="id" value="{{servicios.id}}">
+
+        <div class="mb-3">
+          <label for="nombre_servicio" class="form-label">Nombre del Servicio</label>
+          <input type="text" class="form-control" id="nombre_servicio" name="nombre_servicio" value="{{servicios.nombre_servicio}}" required>
+          <div class="invalid-feedback">Por favor, ingrese el nombre del servicio.</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="descripcion" class="form-label">Descripción</label>
+          <textarea class="form-control" id="descripcion" name="descripcion" rows="3" required>{{servicios.descripcion}}</textarea>
+          <div class="invalid-feedback">Por favor, ingrese una descripción del servicio.</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="precio" class="form-label">Precio</label>
+          <input type="number" class="form-control" id="precio" name="precio" step="0.01" value="{{servicios.precio}}" required>
+          <div class="invalid-feedback">Por favor, ingrese el precio del servicio.</div>
+        </div>
+
+        <button type="submit" class="btn btn-success">Guardar Cambios</button>
+        <a href="/admin/servicios" class="btn btn-secondary">Cancelar</a>
+      </form>
+
+      {{#if error}}
+      <div class="alert alert-danger mt-3">
+        {{message}}
+      </div>
+      {{/if}}
+    </div>
+  </div>
+</div>
