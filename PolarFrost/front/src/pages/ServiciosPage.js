@@ -27,7 +27,7 @@ const ServiciosPage = () => {
   }
 
   return (
-    <section className='holderr'>
+    <section className='holder'>
       {servicios.map((servicio) => (
         <ServiciosItem 
           key={servicio.id} 

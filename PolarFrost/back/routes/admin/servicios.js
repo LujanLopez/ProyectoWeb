@@ -7,7 +7,11 @@ router.get('/', async function (req, res, next) {
 
   var servicios = await serviciosModel.getServicios();
 
-  res.render('admin/servicios', { layout: 'admin/layout', persona: req.session.nombre, servicios });
+  res.render('admin/servicios', {
+      layout: 'admin/layout', 
+      usuario: req.session.nombre, 
+      servicios
+     });
 });
 
 router.get('/agregar', (req, res, next) => {
@@ -18,9 +22,9 @@ router.get('/agregar', (req, res, next) => {
 
 router.post('/agregar', async (req, res, next) => {
   try {
-    if (req.body.nombre_del_servicio != "" && req.body.descripcion != "" && req.body.precio != "") {
+    if (req.body.nombre_servicio != "" && req.body.descripcion != "" && req.body.precio != "") {
       await serviciosModel.insertServicios(req.body);
-      res.redirect('admin/servicios')
+      res.redirect('/admin/servicios')
     } else {
       res.render('admin/agregar', {
         layout: 'admin/layout',
