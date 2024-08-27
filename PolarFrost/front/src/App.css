@@ -600,19 +600,6 @@ body {
 
 /* styles/ServiciosPage.css */
 
-/* styles/ServiciosPage.css */
-
-/* styles/ServiciosPage.css */
-
-/* Contenedor principal para la sección de servicios */
-.holderr {
-  max-width: 1100px; /* Ancho máximo del contenedor */
-  margin: 230px auto 0; /* Margen superior para separar del header fijo y centrado horizontalmente */
-  padding: 20px;
-  background: linear-gradient(to bottom, #007BFF, deepskyblue);
-  border-radius: 10px; /* Esquinas redondeadas del contenedor */
-}
-
 /* Contenedor para los ítems de servicio */
 .servicios-container {
   display: flex;
@@ -633,7 +620,7 @@ body {
   margin: 16px; /* Margen alrededor del ítem */
   color: #fff; /* Color del texto dentro del ítem */
   transition: box-shadow 0.3s ease; /* Transición para la sombra */
-  width: 300px; /* Ancho fijo para los ítems */
+  width: 1000px; /* Ancho fijo para los ítems */
 }
 
 /* Efecto al pasar el mouse sobre el ítem */
@@ -643,7 +630,7 @@ body {
 
 /* Estilo para el título del servicio dentro del ítem */
 .servicio-item h2 {
-  font-size: 10px;
+  font-size: 18px; /* Aumentado para mejor visibilidad */
   color: #ffffff; /* Color del texto para el nombre del servicio */
   margin: 0 0 8px;
   border-bottom: 2px solid #fff; /* Línea divisoria debajo del nombre del servicio */

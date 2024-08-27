@@ -1,7 +1,7 @@
 var pool = require('./bd');
 
 async function getServicios()  {
-    var query = 'select * from servicios';
+    var query = 'select * from servicios order by id asc';
     var rows = await pool.query(query);
     return rows;
 }
