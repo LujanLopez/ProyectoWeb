@@ -89,11 +89,8 @@ const ContactoPage = (props) => {
                 <h2>Otras vías de comunicación</h2>
                 <p>También puede contactarse con nosotros usando los siguientes medios:</p>
                 <ul>
-                    <li>Teléfono: 43242388</li>
-                    <li>Email: contacto@polarfrost.com.ar</li>
-                    <li>Facebook:</li>
-                    <li>Twitter:</li>
-                    <li>Skype:</li>
+                    <li>Teléfono: +54 9 1130915107</li>
+                    <li>Email: polarfrost@gmail.com</li>
                 </ul>
             </div>
         </main>

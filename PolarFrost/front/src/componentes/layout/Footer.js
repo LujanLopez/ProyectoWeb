@@ -12,9 +12,9 @@ const Footer = (props) => {
         </div>
         <div className="footer-section contact">
           <h2>Contacto</h2>
-          <p>Email: contacto@polarfrost.com</p>
-          <p>Teléfono: +54 234 567 890</p>
-          <p>Dirección: Calle Ficticia 123, Ciudad, País</p>
+          <p>Email: polarfrost@gmail.com</p>
+          <p>Teléfono: +54 9 1130915107</p>
+          <p>Dirección: Coronel jose o gordillo 2116</p>
         </div>
       </div>
       <div className="footer-bottom">
